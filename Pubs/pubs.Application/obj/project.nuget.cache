@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GT0h25GbnswwKNr7pbEiw7sv9UUeodBza6QRv4P96mNmirj99obMF6YYCjcje/I6CvkBvSH2MH7pSIRQfRopOQ==",
+  "dgSpecHash": "iPO1j1k1ecYI+Eekf4j2gnKIbujXaYCwXNGx0E0BSeyiUNoFgVU74lj2cybXhrWtFoeW5iTkffg0N3p2Qmag+w==",
   "success": true,
-  "projectFilePath": "C:\\Accion_de_programacion\\Pubs\\pubs.Application\\pubs.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\enman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\enman\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\enman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
+  ],
   "logs": []
 }
