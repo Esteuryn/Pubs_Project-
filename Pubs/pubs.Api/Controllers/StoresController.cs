@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using pubs.Api.Dtos.Stores;
 using pubs.Api.Models;
+using pubs.Domain.Entities;
+using pubs.Infrastructure.Exceptions;
 using pubs.Infrastructure.Interfaces;
 using System.Security.Cryptography.X509Certificates;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace pubs.Api.Controllers
 {
@@ -22,7 +23,13 @@ namespace pubs.Api.Controllers
         [HttpGet("GetStores")]
         public IActionResult Get()
         {
-            var stores = this.storesRepository.GetEntities();
+            var stores = this.storesRepository.GetEntities().Select(stores => new StoreGetModel()
+            {
+                StoreName = stores.stor_name,
+                storeId = stores.stor_id,
+                State = stores.state,
+                City = stores.city
+            });
             return Ok(stores);
         }
 
@@ -30,31 +37,51 @@ namespace pubs.Api.Controllers
         [HttpGet("GetStoresById")]
         public IActionResult Get(string id)
         {
-            var stores = this.storesRepository.GetEntity(id);
-            return Ok(stores);
+            var store = this.storesRepository.GetEntity(id);
+            StoreGetModel storeGetModel = new StoreGetModel()
+            {
+                storeId = store.stor_id,
+                StoreName = store.stor_name,
+                City = store.city,
+                State = store.state
+            };
+            return Ok(storeGetModel);
         }
 
-        // POST api/<StoresController>
         [HttpPost("SaveStore")]
-        public void Post([FromBody] StoreAddModel storeAddModel)
+        public IActionResult Post([FromBody] StoreAddDto storeAddModel)
         {
             this.storesRepository.Save(new Domain.Entities.Store()
             {
                 stor_name = storeAddModel.StoreName,
-                stor_id = storeAddModel.storeId
+                stor_id = storeAddModel.storeId,
+                state = storeAddModel.State,
+                city = storeAddModel.City
             });
+            return Ok("Tienda guaradada correctamente.");
         }
 
-        // PUT api/<StoresController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPost("UpdateStore")]
+        public IActionResult Put([FromBody] StoreUpdateDto storeUpdate)
         {
+            this.storesRepository.Update(new Store()
+            {
+                stor_id = storeUpdate.storeId,
+                stor_name = storeUpdate.StoreName,
+                city = storeUpdate.City,
+                state = storeUpdate.State
+            });
+            return Ok("Tienda actualizada correctamente.");
         }
 
-        // DELETE api/<StoresController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpPost("RemoveStore")]
+        public IActionResult Remove([FromBody] StoreRemoveDto storeRemove)
         {
+            this.storesRepository.Remove(new Store()
+            {
+                stor_id = storeRemove.storeId
+            });
+            return Ok("Tienda eliminada correctamente.");
         }
     }
 }

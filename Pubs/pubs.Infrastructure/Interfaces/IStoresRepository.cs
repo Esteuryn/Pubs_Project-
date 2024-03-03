@@ -7,7 +7,7 @@ namespace pubs.Infrastructure.Interfaces
 {
     public interface IStoresRepository : IBaseRepository<Store>
     {
-        List<StoresModel> GetStoresById(int storeId);
+       
 
     }
 }

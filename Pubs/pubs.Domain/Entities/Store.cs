@@ -15,7 +15,7 @@ namespace pubs.Domain.Entities
         public string? stor_name { get; set; }
         public string? stor_address { get; set; }
         public string? city { get; set; }
-        public char? state { get; set; }
+        public string? state { get; set; }
         public char? zip { get; set; }
     }
 }

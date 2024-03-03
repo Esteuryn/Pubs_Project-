@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using pubs.Domain.Entities;
 using pubs.Infrastructure.Context;
 using pubs.Infrastructure.Core;
+using pubs.Infrastructure.Exceptions;
 using pubs.Infrastructure.Interfaces;
 using pubs.Infrastructure.Models;
 using static System.Formats.Asn1.AsnWriter;
@@ -13,6 +14,7 @@ namespace pubs.Infrastructure.Repositories
     {
 
         private readonly ILogger<StoresRepository> logger;
+        
 
         public StoresRepository(PubsContext context, ILogger<StoresRepository> logger) : base(context)
         {
@@ -24,13 +26,21 @@ namespace pubs.Infrastructure.Repositories
             try
             {
                 var storeToUpdate = this.GetEntity(entity.stor_id);
-                storeToUpdate.stor_name = entity.stor_name;
-                storeToUpdate.stor_address = entity.stor_address;
-                storeToUpdate.city = entity.city;
-                storeToUpdate.state = entity.state;
-                storeToUpdate.zip = entity.zip;
-                this.context.Stores.Update(storeToUpdate);
-                this.context.SaveChanges();
+
+                if (storeToUpdate is null)
+                {
+                    throw new StoresException("La tienda no existe");
+                }
+                else
+                {
+                    storeToUpdate.stor_name = entity.stor_name;
+                    storeToUpdate.stor_address = entity.stor_address;
+                    storeToUpdate.city = entity.city;
+                    storeToUpdate.state = entity.state;
+                    storeToUpdate.zip = entity.zip;
+                    this.context.Stores.Update(storeToUpdate);
+                    this.context.SaveChanges();
+                }
             }
             catch (Exception ex)
             {
@@ -51,9 +61,28 @@ namespace pubs.Infrastructure.Repositories
             }
         }
 
-        public List<StoresModel> GetStoresById(int storeId)
+        public override void Remove(Store entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Store storeToRemove = this.GetEntity(entity.stor_id);
+                if (storeToRemove is null)
+                {
+                    throw new StoresException("La tienda no existe");
+                }
+                else
+                {
+                    storeToRemove.stor_id = entity.stor_id;
+
+                    this.context.Stores.Remove(storeToRemove);
+                    this.context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                this.logger.LogError("Error al remover la tienda", ex.ToString());
+            }
         }
     }
 }
