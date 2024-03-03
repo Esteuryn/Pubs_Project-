@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6XFKRNPl7LhpvItctuYfGk+BuA8wXdnjN7RiuiJVH782EBfKZ6T4c4Bv93K5eh5GWkbeXZ57ZtzzXiORplqE6A==",
+  "dgSpecHash": "vGv/HBJgkOONxy7lNCMnSInCXSudHOIgVgtKtm9odvKEOp+fvbEsp679KJ/coklfyvuVdz3thlFqe7RxkUkWoA==",
   "success": true,
-  "projectFilePath": "C:\\Accion_de_programacion\\Pubs\\pubs.Web\\pubs.Web.csproj",
+  "projectFilePath": "C:\\Pubsproject\\Pubs\\pubs.Web\\pubs.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
