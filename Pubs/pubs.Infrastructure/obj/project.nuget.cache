@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IGSeu90T4l2FJ3rVfe8TVpBU6JJ1ZTF3uNi/5QayJqpZSY4lHBQQSbkf3RxUPCPJ2XLHc9Ggt6zKJwybqttacQ==",
+  "dgSpecHash": "smVmLvuaXGHMGTgp2f9BpdPJlwMc7SMDPhJAaR9uTJRXrHz8krpZfQUK+xaD9PMWfgyoTPz6v/sXWzxQFXhY/A==",
   "success": true,
-  "projectFilePath": "D:\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj",
+  "projectFilePath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enman\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\enman\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

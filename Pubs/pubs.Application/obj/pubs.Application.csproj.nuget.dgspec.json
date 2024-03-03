@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj": {}
+    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj": {}
   },
   "projects": {
-    "D:\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj": {
+    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj",
+        "projectUniqueName": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj",
         "projectName": "pubs.Application",
-        "projectPath": "D:\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj",
+        "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "D:\\Pubs_Project-\\Pubs\\pubs.Application\\obj\\",
+        "outputPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",

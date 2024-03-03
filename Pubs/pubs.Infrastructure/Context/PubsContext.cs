@@ -11,6 +11,6 @@ namespace pubs.Infrastructure.Context
                        
         }
 
-        public DbSet<Store> stores { get; set; }
+        public DbSet<Store> Stores { get; set; }
     }
 }

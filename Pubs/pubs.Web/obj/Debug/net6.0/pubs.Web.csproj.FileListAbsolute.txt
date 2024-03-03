@@ -29,3 +29,34 @@ D:\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\refint\pubs.Web.dll
 D:\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.pdb
 D:\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.genruntimeconfig.cache
 D:\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\ref\pubs.Web.dll
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\bin\Debug\net6.0\appsettings.Development.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\bin\Debug\net6.0\appsettings.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\bin\Debug\net6.0\pubs.Web.staticwebassets.runtime.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\bin\Debug\net6.0\pubs.Web.exe
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\bin\Debug\net6.0\pubs.Web.deps.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\bin\Debug\net6.0\pubs.Web.runtimeconfig.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\bin\Debug\net6.0\pubs.Web.dll
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\bin\Debug\net6.0\pubs.Web.pdb
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.AssemblyInfoInputs.cache
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.AssemblyInfo.cs
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.csproj.CoreCompileInputs.cache
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.RazorAssemblyInfo.cache
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.RazorAssemblyInfo.cs
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.sourcelink.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\staticwebassets\msbuild.pubs.Web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.pubs.Web.props
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.pubs.Web.props
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.pubs.Web.props
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\scopedcss\bundle\pubs.Web.styles.css
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\scopedcss\projectbundle\pubs.Web.bundle.scp.css
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.dll
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\refint\pubs.Web.dll
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.pdb
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\pubs.Web.genruntimeconfig.cache
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Web\obj\Debug\net6.0\ref\pubs.Web.dll

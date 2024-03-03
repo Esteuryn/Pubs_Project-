@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj": {}
+    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj": {
+    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
+        "projectUniqueName": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
         "projectName": "pubs.Domain",
-        "projectPath": "D:\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
+        "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "D:\\Pubs_Project-\\Pubs\\pubs.Domain\\obj\\",
+        "outputPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj": {
+    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj",
         "projectName": "pubs.Infrastructure",
-        "projectPath": "D:\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj",
+        "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "D:\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\obj\\",
+        "outputPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj": {
-                "projectPath": "D:\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj"
+              "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj": {
+                "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj"
               }
             }
           }

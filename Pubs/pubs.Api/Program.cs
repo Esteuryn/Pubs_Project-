@@ -1,7 +1,18 @@
+using Microsoft.EntityFrameworkCore;
+using pubs.Infrastructure.Context;
+using pubs.Infrastructure.Interfaces;
+using pubs.Infrastructure.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+//Connection Strings
+builder.Services.AddDbContext<PubsContext>(options => 
+options.UseSqlServer(builder.Configuration.GetConnectionString("PubsContext")));
 
+//Repositories
+builder.Services.AddScoped<IStoresRepository, StoresRepository>();
+
+//App Services
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

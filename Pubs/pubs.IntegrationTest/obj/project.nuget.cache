@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0pGhxECM4icZXbRt8gvz217w0nYdzd95h1ekrLV3DE3FviZOOdCRQmu6geTVQtMmOuuxzMT6Ge6bHlKjQ919Zg==",
+  "dgSpecHash": "trBxDalcM6p6TMiIGTRaaTB6CdcTpam3e2eRJNxhW9K3RA+AwVkqclHECzss7mS5Ssex0eWgv2PpxvE4BpqvVg==",
   "success": true,
-  "projectFilePath": "D:\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\pubs.IntegrationTest.csproj",
+  "projectFilePath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\pubs.IntegrationTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enman\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\enman\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

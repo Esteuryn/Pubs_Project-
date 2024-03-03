@@ -1,0 +1,12 @@
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\bin\Debug\net6.0\pubs.Ioc.deps.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\bin\Debug\net6.0\pubs.Ioc.dll
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\bin\Debug\net6.0\pubs.Ioc.pdb
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.AssemblyInfoInputs.cache
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.AssemblyInfo.cs
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.csproj.CoreCompileInputs.cache
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.sourcelink.json
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.dll
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\obj\Debug\net6.0\refint\pubs.Ioc.dll
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.pdb
+D:\Programacion 2\Pubs_Project-\Pubs\pubs.Ioc\obj\Debug\net6.0\ref\pubs.Ioc.dll

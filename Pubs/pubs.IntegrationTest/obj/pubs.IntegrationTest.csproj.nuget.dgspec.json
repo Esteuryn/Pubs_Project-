@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\pubs.IntegrationTest.csproj": {}
+    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\pubs.IntegrationTest.csproj": {}
   },
   "projects": {
-    "D:\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\pubs.IntegrationTest.csproj": {
+    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\pubs.IntegrationTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\pubs.IntegrationTest.csproj",
+        "projectUniqueName": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\pubs.IntegrationTest.csproj",
         "projectName": "pubs.IntegrationTest",
-        "projectPath": "D:\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\pubs.IntegrationTest.csproj",
+        "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\pubs.IntegrationTest.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "D:\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\obj\\",
+        "outputPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.IntegrationTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",

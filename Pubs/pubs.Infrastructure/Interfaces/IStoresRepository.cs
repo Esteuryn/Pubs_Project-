@@ -1,15 +1,13 @@
 ﻿
 using pubs.Domain.Entities;
 using pubs.Domain.Repository;
+using pubs.Infrastructure.Models;
 
 namespace pubs.Infrastructure.Interfaces
 {
     public interface IStoresRepository : IBaseRepository<Store>
     {
-        void Create(Store store);
-        void Remove(Store store);
-        void Update(Store store);
-        List<Store> GetStores();
-        Store GetStore(int storeId);
+        List<StoresModel> GetStoresById(int storeId);
+
     }
 }

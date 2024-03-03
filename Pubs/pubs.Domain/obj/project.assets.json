@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
+      "projectUniqueName": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
       "projectName": "pubs.Domain",
-      "projectPath": "D:\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
+      "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
       "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-      "outputPath": "D:\\Pubs_Project-\\Pubs\\pubs.Domain\\obj\\",
+      "outputPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",
