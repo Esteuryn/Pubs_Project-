@@ -6,9 +6,9 @@ using pubs.Domain;
 
 namespace pubs.Infrastructure.Context
 {
-    public class PubsContext : DbContext
+    public class pubsContext : DbContext
     {
-        public PubsContext(DbContextOptions<PubsContext> options) : base(options)
+        public pubsContext(DbContextOptions<pubsContext> options) : base(options)
         {
         }
 

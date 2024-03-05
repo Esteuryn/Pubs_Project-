@@ -6,10 +6,10 @@ namespace pubs.Infrastructure.Core
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
     {
 
-        public readonly PubsContext context;
+        public readonly pubsContext context;
         public readonly DbSet<TEntity> DBentity;
 
-        protected BaseRepository(PubsContext context)
+        protected BaseRepository(pubsContext context)
         {
             this.context = context;
             this.DBentity = context.Set<TEntity>();
