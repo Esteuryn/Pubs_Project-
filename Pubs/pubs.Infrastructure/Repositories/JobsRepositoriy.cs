@@ -1,63 +1,83 @@
-﻿using pubs.Domain.Entities;
+﻿using Microsoft.Extensions.Logging;
+using pubs.Domain.Entities;
 using pubs.Infrastructure.Context;
+using pubs.Infrastructure.Core;
+using pubs.Infrastructure.Exceptions;
 using pubs.Infrastructure.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace pubs.Infrastructure.Repositories
 {
-    public class JobsRepository : IJobsRepository
+    public class JobsRepository : BaseRepository<Jobs>, IJobsRepository
     {
-        private readonly PubsContext context;
 
-        public JobsRepository(PubsContext context)
+        private readonly ILogger<JobsRepository> logger;
+
+
+        public JobsRepository(PubsContext context, ILogger<JobsRepository> logger) : base(context)
         {
-            this.context = context;
+            this.logger = logger;
         }
 
-        public bool Exists(Expression<Func<Jobs , bool>> filter)
+        public override void Update(Jobs entity)
         {
-            return this.context.Jobs.Any(filter);
-        }
-
-        public List<Jobs> GetJobs()
-        {
-            return context.Jobs.ToList();
-        }
-
-        public Jobs GetJob(int id)
-        {
-            return this.context.Jobs.Find(id);
-        }
-
-        public void Remove(Jobs jobs )
-        {
-            if (jobs != null)
+            try
             {
-                context.Jobs.Remove(jobs);
-                context.SaveChanges();
+                var JobToUpdate = this.GetEntity(entity.job_id);
+
+                if (JobToUpdate is null)
+                {
+                    throw new JobsException("La tienda no existe");
+                }
+                else
+                {
+                    JobToUpdate.job_id = entity.job_id;
+                    JobToUpdate.job_desc = entity.job_desc;
+                    JobToUpdate.Min_lvl = entity.Min_lvl; 
+                    JobToUpdate.Max_lvl = entity.Max_lvl; 
+                    this.context.Jobs.Update(JobToUpdate);
+                    this.context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                this.logger.LogError("Error actualizado la tienda", ex.ToString());
             }
         }
 
-        public void Save(Jobs jobs)
+
+        public override void Save(Jobs entity)
         {
-            if (jobs != null)
+            try
             {
-                context.Jobs.Add(jobs);
-                context.SaveChanges();
+                this.context.Jobs.Add(entity);
+                this.context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                this.logger.LogError("Error creando la categoria", ex.ToString());
             }
         }
 
-        public void Update(Jobs jobs)
+        public override void Remove(Jobs entity)
         {
-            if (jobs != null)
+            try
             {
-                context.Jobs.Update(jobs);
-                context.SaveChanges();
+                Jobs JobsToRemove = this.GetEntity(entity.job_id);
+                if (JobsToRemove is null)
+                {
+                    throw new JobsException("La tienda no existe");
+                }
+                else
+                {
+                    JobsToRemove.job_id = entity.job_id;
+
+                    this.context.Jobs.Remove(JobsToRemove);
+                    this.context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                this.logger.LogError("Error al remover la tienda", ex.ToString());
             }
         }
     }

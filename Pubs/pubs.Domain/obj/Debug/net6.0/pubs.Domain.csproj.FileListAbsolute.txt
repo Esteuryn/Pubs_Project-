@@ -1,0 +1,11 @@
+C:\Accion_de_programacion\Pubs\pubs.Domain\bin\Debug\net6.0\pubs.Domain.deps.json
+C:\Accion_de_programacion\Pubs\pubs.Domain\bin\Debug\net6.0\pubs.Domain.dll
+C:\Accion_de_programacion\Pubs\pubs.Domain\bin\Debug\net6.0\pubs.Domain.pdb
+C:\Accion_de_programacion\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Accion_de_programacion\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.AssemblyInfoInputs.cache
+C:\Accion_de_programacion\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.AssemblyInfo.cs
+C:\Accion_de_programacion\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.csproj.CoreCompileInputs.cache
+C:\Accion_de_programacion\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.dll
+C:\Accion_de_programacion\Pubs\pubs.Domain\obj\Debug\net6.0\refint\pubs.Domain.dll
+C:\Accion_de_programacion\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.pdb
+C:\Accion_de_programacion\Pubs\pubs.Domain\obj\Debug\net6.0\ref\pubs.Domain.dll

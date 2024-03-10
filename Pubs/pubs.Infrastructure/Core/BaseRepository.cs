@@ -1,44 +1,78 @@
-﻿
-
-using Library.Domain.Repository;
-using pubs.Domain.Entities;
-using System.Linq.Expressions;
+﻿using Microsoft.EntityFrameworkCore;
+using pubs.Domain.Repository;
+using pubs.Infrastructure.Context;
 
 namespace pubs.Infrastructure.Core
-
-   
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
     {
-        public bool Exists(Expression<Func<Jobs, bool>> filter)
+
+        public readonly PubsContext context;
+        public readonly DbSet<TEntity> DBentity;
+
+        protected BaseRepository(PubsContext context)
         {
-            throw new NotImplementedException();
+            this.context = context;
+            this.DBentity = context.Set<TEntity>();
         }
 
-        public TEntity GetJob(int id)
+        public virtual bool Exist(Func<TEntity, bool> filter)
         {
-            throw new NotImplementedException();
+            return DBentity.Any(filter);
         }
 
-        public List<TEntity> GetJobs()
+        public virtual List<TEntity> FindAll(Func<TEntity, bool> filter)
         {
-            throw new NotImplementedException();
+            return DBentity.Where(filter).ToList();
         }
 
-        public void Remove(TEntity entity)
+        public List<TEntity> GetEntities()
         {
-            throw new NotImplementedException();
+            return DBentity.ToList();
         }
 
-        public void Save(TEntity entity)
+        public virtual TEntity GetEntity(short Id)
         {
-            throw new NotImplementedException();
+            return DBentity.Find(Id);
         }
 
-        public void Update(TEntity entity)
+        public virtual void Save(TEntity entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                DBentity.Add(entity);
+                context.SaveChanges();
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public virtual void Update(TEntity entity)
+        {
+            try
+            {
+                DBentity.Update(entity);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public virtual void Remove(TEntity entity)
+        {
+            try
+            {
+                DBentity.Update(entity);
+                this.context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }
- 

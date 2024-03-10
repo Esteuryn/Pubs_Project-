@@ -1,0 +1,11 @@
+C:\Accion_de_programacion\Pubs\pubs.Ioc\bin\Debug\net6.0\pubs.Ioc.deps.json
+C:\Accion_de_programacion\Pubs\pubs.Ioc\bin\Debug\net6.0\pubs.Ioc.dll
+C:\Accion_de_programacion\Pubs\pubs.Ioc\bin\Debug\net6.0\pubs.Ioc.pdb
+C:\Accion_de_programacion\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Accion_de_programacion\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.AssemblyInfoInputs.cache
+C:\Accion_de_programacion\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.AssemblyInfo.cs
+C:\Accion_de_programacion\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.csproj.CoreCompileInputs.cache
+C:\Accion_de_programacion\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.dll
+C:\Accion_de_programacion\Pubs\pubs.Ioc\obj\Debug\net6.0\refint\pubs.Ioc.dll
+C:\Accion_de_programacion\Pubs\pubs.Ioc\obj\Debug\net6.0\pubs.Ioc.pdb
+C:\Accion_de_programacion\Pubs\pubs.Ioc\obj\Debug\net6.0\ref\pubs.Ioc.dll

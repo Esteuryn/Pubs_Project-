@@ -1,0 +1,11 @@
+C:\Accion_de_programacion\Pubs\pubs.Application\bin\Debug\net6.0\pubs.Application.deps.json
+C:\Accion_de_programacion\Pubs\pubs.Application\bin\Debug\net6.0\pubs.Application.dll
+C:\Accion_de_programacion\Pubs\pubs.Application\bin\Debug\net6.0\pubs.Application.pdb
+C:\Accion_de_programacion\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Accion_de_programacion\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.AssemblyInfoInputs.cache
+C:\Accion_de_programacion\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.AssemblyInfo.cs
+C:\Accion_de_programacion\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.csproj.CoreCompileInputs.cache
+C:\Accion_de_programacion\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.dll
+C:\Accion_de_programacion\Pubs\pubs.Application\obj\Debug\net6.0\refint\pubs.Application.dll
+C:\Accion_de_programacion\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.pdb
+C:\Accion_de_programacion\Pubs\pubs.Application\obj\Debug\net6.0\ref\pubs.Application.dll

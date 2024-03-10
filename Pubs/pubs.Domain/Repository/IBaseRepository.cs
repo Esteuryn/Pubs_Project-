@@ -1,19 +1,20 @@
-﻿using pubs.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq.Expressions;
-using System.Text;
-
-namespace Library.Domain.Repository
+﻿namespace pubs.Domain.Repository
 {
-     public interface IBaseRepository<TEntity> where TEntity : class
+    public interface IBaseRepository<TEntity> where TEntity : class
     {
-        void Save(TEntity entity);
-        void Update (TEntity entity);
-        void Remove(TEntity entity);
+        TEntity GetEntity(short id);
 
-        List<TEntity> GetJobs();
-        TEntity GetJob(int id);
-        bool Exists(Expression<Func<Jobs, bool>> filter);
+        List<TEntity> GetEntities();
+
+        List<TEntity> FindAll(Func<TEntity, bool> filter);
+
+        bool Exist(Func<TEntity, bool> filter);
+
+        void Save(TEntity entity);
+
+        void Update(TEntity entity);
+
+        void Remove(TEntity entity);
     }
 }
+
