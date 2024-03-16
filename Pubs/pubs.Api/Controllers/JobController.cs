@@ -1,4 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using pubs.Api.Models;
+using pubs.Domain.Entities;
+using pubs.Infrastructure.Interfaces;
+using System.Text.Json.Serialization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -6,38 +10,60 @@ namespace pubs.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class JobController : ControllerBase
+    public class JobsController : ControllerBase
     {
-        // GET: api/<JobController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IJobsRepository JobsRepository;
+
+        public JobsController(IJobsRepository JobsRepository)
         {
-            return new string[] { "value1", "value2" };
+            this.JobsRepository = JobsRepository;
         }
 
-        // GET api/<JobController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+
+        [HttpGet("GetJobs")]
+        public IActionResult Get()
         {
-            return "value";
+            var jobs = this.JobsRepository.GetEntities();
+            /*
+            {
+                StoreName = stores.stor_name,
+                storeId = stores.stor_id,
+                State = stores.state,
+                City = stores.city
+            });
+            */
+            return Ok(jobs);
         }
 
-        // POST api/<JobController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+
+        [HttpGet("GetStoresById")]
+        public IActionResult Get(short id)
         {
+            var jobs = this.JobsRepository.GetEntity(id);
+            /*
+            {
+                StoreName = stores.stor_name,
+                storeId = stores.stor_id,
+                State = stores.state,
+                City = stores.city
+            });
+            */
+            return Ok(jobs);
         }
 
-        // PUT api/<JobController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPost("SaveJob")]
+        public void Post([FromBody] JobAddModel jobAddModel)
         {
+            this.JobsRepository.Save(new Domain.Entities.Jobs()
+            {
+                job_id = jobAddModel.job_id,
+                job_desc = jobAddModel.job_desc,
+                Min_lvl = jobAddModel.Min_lvl,
+                Max_lvl = jobAddModel.Max_lvl
+            });
+
         }
 
-        // DELETE api/<JobController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        
     }
 }

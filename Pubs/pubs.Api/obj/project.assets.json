@@ -2367,6 +2367,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Swashbuckle.AspNetCore >= 6.5.0",
+      "pubs.Domain >= 1.0.0",
       "pubs.Infrastructure >= 1.0.0"
     ]
   },
@@ -2402,6 +2403,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Accion_de_programacion\\Pubs\\pubs.Domain\\pubs.Domain.csproj": {
+              "projectPath": "C:\\Accion_de_programacion\\Pubs\\pubs.Domain\\pubs.Domain.csproj"
+            },
             "C:\\Accion_de_programacion\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj": {
               "projectPath": "C:\\Accion_de_programacion\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj"
             }

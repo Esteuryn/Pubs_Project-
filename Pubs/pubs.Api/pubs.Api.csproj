@@ -11,7 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\pubs.Domain\pubs.Domain.csproj" />
     <ProjectReference Include="..\pubs.Infrastructure\pubs.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\" />
   </ItemGroup>
 
 </Project>

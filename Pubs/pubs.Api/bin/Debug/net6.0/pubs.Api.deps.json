@@ -9,6 +9,7 @@
       "pubs.Api/1.0.0": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "6.5.0",
+          "pubs.Domain": "1.0.0",
           "pubs.Infrastructure": "1.0.0"
         },
         "runtime": {
