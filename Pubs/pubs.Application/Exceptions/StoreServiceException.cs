@@ -11,8 +11,8 @@ namespace pubs.Application.Exceptions
     {
         public StoreServiceException()
         {
-        }
 
+        }
         public void ValidateNullable(string? value, string? message, bool status)
         {
             if (string.IsNullOrEmpty(value)) 
