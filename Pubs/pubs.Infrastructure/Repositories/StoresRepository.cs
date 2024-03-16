@@ -13,12 +13,14 @@ namespace pubs.Infrastructure.Repositories
     public class StoresRepository : BaseRepository<Store>, IStoresRepository
     {
 
-        private readonly ILogger<StoresRepository> logger;
-        
+        private readonly ICustomlogger _logger;
+        private readonly Action<string> logErrorMethod;
 
-        public StoresRepository(PubsContext context, ILogger<StoresRepository> logger) : base(context)
+
+        public StoresRepository(PubsContext context, ICustomlogger logger) : base(context)
         {
-            this.logger = logger;
+            _logger = logger;
+            logErrorMethod = _logger.LogError;
         }
 
         public override void Update(Store entity)
@@ -44,7 +46,7 @@ namespace pubs.Infrastructure.Repositories
             }
             catch (Exception ex)
             {
-                this.logger.LogError("Error actualizado la tienda", ex.ToString());
+                logErrorMethod("Error actualizado la tienda " + ex.ToString());
             }
         }
 
@@ -57,7 +59,7 @@ namespace pubs.Infrastructure.Repositories
             }
             catch (Exception ex)
             {
-                this.logger.LogError("Error creando la categoria", ex.ToString());
+                logErrorMethod("Error creando la categoria " + ex.ToString());
             }
         }
 
@@ -81,7 +83,7 @@ namespace pubs.Infrastructure.Repositories
             catch (Exception ex)
             {
 
-                this.logger.LogError("Error al remover la tienda", ex.ToString());
+                logErrorMethod("Error al remover la tienda " + ex.ToString());
             }
         }
     }

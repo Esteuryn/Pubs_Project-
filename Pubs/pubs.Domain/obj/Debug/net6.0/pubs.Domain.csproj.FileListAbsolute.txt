@@ -10,3 +10,15 @@ D:\Programacion 2\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.dl
 D:\Programacion 2\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\refint\pubs.Domain.dll
 D:\Programacion 2\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.pdb
 D:\Programacion 2\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\ref\pubs.Domain.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\bin\Debug\net6.0\pubs.Domain.deps.json
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\bin\Debug\net6.0\pubs.Domain.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\bin\Debug\net6.0\pubs.Domain.pdb
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.AssemblyInfoInputs.cache
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.AssemblyInfo.cs
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.csproj.CoreCompileInputs.cache
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.sourcelink.json
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\refint\pubs.Domain.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\pubs.Domain.pdb
+D:\ITLA\Pubs_Project-\Pubs\pubs.Domain\obj\Debug\net6.0\ref\pubs.Domain.dll

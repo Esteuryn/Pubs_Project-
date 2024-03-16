@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Ioc\\pubs.Ioc.csproj",
+      "projectUniqueName": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Ioc\\pubs.Ioc.csproj",
       "projectName": "pubs.Ioc",
-      "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Ioc\\pubs.Ioc.csproj",
+      "projectPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Ioc\\pubs.Ioc.csproj",
       "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-      "outputPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Ioc\\obj\\",
+      "outputPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Ioc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",

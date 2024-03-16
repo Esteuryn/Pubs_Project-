@@ -10,3 +10,21 @@ D:\Programacion 2\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Appl
 D:\Programacion 2\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\refint\pubs.Application.dll
 D:\Programacion 2\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.pdb
 D:\Programacion 2\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\ref\pubs.Application.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.AssemblyInfoInputs.cache
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.AssemblyInfo.cs
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.csproj.CoreCompileInputs.cache
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.sourcelink.json
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\refint\pubs.Application.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.pdb
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.csproj.AssemblyReference.cache
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\bin\Debug\net6.0\pubs.Application.deps.json
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\bin\Debug\net6.0\pubs.Application.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\bin\Debug\net6.0\pubs.Application.pdb
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\bin\Debug\net6.0\pubs.Domain.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\bin\Debug\net6.0\pubs.Infrastructure.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\bin\Debug\net6.0\pubs.Infrastructure.pdb
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\bin\Debug\net6.0\pubs.Domain.pdb
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\pubs.Application.csproj.CopyComplete
+D:\ITLA\Pubs_Project-\Pubs\pubs.Application\obj\Debug\net6.0\ref\pubs.Application.dll

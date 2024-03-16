@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using pubs.Infrastructure.Context;
 using pubs.Infrastructure.Interfaces;
+using pubs.Infrastructure.Logging;
 using pubs.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("PubsContext")));
 
 //Repositories
 builder.Services.AddScoped<IStoresRepository, StoresRepository>();
+builder.Services.AddScoped<ICustomlogger, CustomLogger>();
 
 //App Services
 builder.Services.AddControllers();

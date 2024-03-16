@@ -7,7 +7,5 @@ namespace pubs.Infrastructure.Interfaces
 {
     public interface IStoresRepository : IBaseRepository<Store>
     {
-       
-
     }
 }

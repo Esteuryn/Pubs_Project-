@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Api\\pubs.Api.csproj": {}
+    "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Api\\pubs.Api.csproj": {}
   },
   "projects": {
-    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Api\\pubs.Api.csproj": {
+    "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Api\\pubs.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Api\\pubs.Api.csproj",
+        "projectUniqueName": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Api\\pubs.Api.csproj",
         "projectName": "pubs.Api",
-        "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Api\\pubs.Api.csproj",
+        "projectPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Api\\pubs.Api.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Api\\obj\\",
+        "outputPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj": {
-                "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj"
+              "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj": {
+                "projectPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj": {
+    "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
+        "projectUniqueName": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
         "projectName": "pubs.Domain",
-        "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
+        "projectPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\obj\\",
+        "outputPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -159,14 +159,14 @@
         }
       }
     },
-    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj": {
+    "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj",
+        "projectUniqueName": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj",
         "projectName": "pubs.Infrastructure",
-        "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj",
+        "projectPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\obj\\",
+        "outputPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,8 +183,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj": {
-                "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj"
+              "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj": {
+                "projectPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Domain\\pubs.Domain.csproj"
               }
             }
           }

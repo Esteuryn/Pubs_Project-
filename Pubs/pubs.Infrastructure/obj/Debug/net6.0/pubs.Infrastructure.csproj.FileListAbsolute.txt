@@ -14,3 +14,19 @@ D:\Programacion 2\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.I
 D:\Programacion 2\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\refint\pubs.Infrastructure.dll
 D:\Programacion 2\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.Infrastructure.pdb
 D:\Programacion 2\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\ref\pubs.Infrastructure.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\bin\Debug\net6.0\pubs.Infrastructure.deps.json
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\bin\Debug\net6.0\pubs.Infrastructure.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\bin\Debug\net6.0\pubs.Infrastructure.pdb
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\bin\Debug\net6.0\pubs.Domain.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\bin\Debug\net6.0\pubs.Domain.pdb
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.Infrastructure.csproj.AssemblyReference.cache
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.Infrastructure.AssemblyInfoInputs.cache
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.Infrastructure.AssemblyInfo.cs
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.Infrastructure.sourcelink.json
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.Infrastructure.csproj.CopyComplete
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.Infrastructure.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\refint\pubs.Infrastructure.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\pubs.Infrastructure.pdb
+D:\ITLA\Pubs_Project-\Pubs\pubs.Infrastructure\obj\Debug\net6.0\ref\pubs.Infrastructure.dll

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using pubs.Domain.Repository;
 using pubs.Infrastructure.Context;
+using pubs.Infrastructure.Exceptions;
 namespace pubs.Infrastructure.Core
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
@@ -44,7 +45,7 @@ namespace pubs.Infrastructure.Core
             }
             catch 
             {
-                throw;
+                throw new StoresException("Error");
             }
         }
 
@@ -55,9 +56,9 @@ namespace pubs.Infrastructure.Core
                 DBentity.Update(entity);
                 context.SaveChanges();
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw new StoresException("Error");
             }
         }
 
@@ -68,9 +69,9 @@ namespace pubs.Infrastructure.Core
                 DBentity.Update(entity);
                 this.context.SaveChanges();
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw new StoresException("Error");
             }
         }
     }

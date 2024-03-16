@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.UnitTest\\pubs.UnitTest.csproj": {}
+    "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.UnitTest\\pubs.UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.UnitTest\\pubs.UnitTest.csproj": {
+    "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.UnitTest\\pubs.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.UnitTest\\pubs.UnitTest.csproj",
+        "projectUniqueName": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.UnitTest\\pubs.UnitTest.csproj",
         "projectName": "pubs.UnitTest",
-        "projectPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.UnitTest\\pubs.UnitTest.csproj",
+        "projectPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.UnitTest\\pubs.UnitTest.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.UnitTest\\obj\\",
+        "outputPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",

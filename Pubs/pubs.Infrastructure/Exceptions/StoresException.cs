@@ -7,9 +7,10 @@ namespace pubs.Infrastructure.Exceptions
         {
             SaveLog(message);   
         }
-        void SaveLog(string message)
+
+        public void SaveLog(string message)
         {
-            //Logica de guardar exception//
+            Console.WriteLine(message);
         }
     }
 }

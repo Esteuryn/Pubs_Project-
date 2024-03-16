@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "68ePLSfh6Dc957hNXlwerbMinqp6FvqJ6xUHLRraxCwEFNF6BL0MgjD1CkWIGtGYRKqqPnnX/vB0+Zk3LBqPdw==",
+  "dgSpecHash": "w7MgVBCPq42t0DBdwVhM1/G1DBjJRIetab02EdkF/mh0yAr+OQ44+UASlc6iHldpiLHLFdA1kVPagegEEYoxUw==",
   "success": true,
-  "projectFilePath": "D:\\Programacion 2\\Pubs_Project-\\Pubs\\pubs.UnitTest\\pubs.UnitTest.csproj",
+  "projectFilePath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.UnitTest\\pubs.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enman\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\enman\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
