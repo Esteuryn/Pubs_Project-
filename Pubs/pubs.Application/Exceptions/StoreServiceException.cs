@@ -17,7 +17,7 @@ namespace pubs.Application.Exceptions
         {
             if (string.IsNullOrEmpty(value)) 
             {
-                throw new ArgumentNullException(message);
+                throw new Exception(message);
             }
         }
 
@@ -25,7 +25,7 @@ namespace pubs.Application.Exceptions
         {
             if(value.Length > maxLenght) 
             {
-                throw new ArgumentException(message);
+                throw new Exception(message);
             }
         }
     }
