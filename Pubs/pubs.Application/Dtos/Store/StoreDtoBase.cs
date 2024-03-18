@@ -8,6 +8,7 @@ namespace pubs.Application.Dtos.Store
 {
     public class StoreDtoBase : DtoBase
     {
+        public string storeId { get; set; }
         public string? StoreName { get; set; }
     }
 }

@@ -4,12 +4,8 @@ using pubs.Application.Models.Store;
 
 namespace pubs.Application.Contracts
 {
-    public interface IStoresService
+    public interface IStoresService : IBaseService<StoreAddDto, StoreRemoveDto, StoreUpdateDto, StoreGetModel>
     {
-        ServiceResult<List<StoreGetModel>> GetStores();
-        ServiceResult<StoreGetModel> GetStore(string id);
-        ServiceResult<StoreGetModel> SaveStore(StoreAddDto storeAddDto);
-        ServiceResult<StoreGetModel> UpdateStore(StoreUpdateDto storeUpdateDto);
-        ServiceResult<StoreGetModel> RemoveStore(StoreRemoveDto storeRemoveDto);
+        
     }
 }

@@ -24,7 +24,7 @@ namespace pubs.Api.Controllers
         [HttpGet("GetStores")]
         public IActionResult Get()
         {
-            var result = this.storeService.GetStores();
+            var result = this.storeService.GetAll();
 
             if (!result.Success) 
             {
@@ -37,7 +37,7 @@ namespace pubs.Api.Controllers
         [HttpGet("GetStoresById")]
         public IActionResult Get(string id)
         {
-            var result = this.storeService.GetStore(id);
+            var result = this.storeService.Get(id);
 
             if (!result.Success)
             {
@@ -49,7 +49,7 @@ namespace pubs.Api.Controllers
         [HttpPost("SaveStore")]
         public IActionResult Post([FromBody] Application.Dtos.Store.StoreAddDto storeAddModel)
         {
-            var result = this.storeService.SaveStore(storeAddModel);
+            var result = this.storeService.Save(storeAddModel);
 
             if (!result.Success)
             {
@@ -61,7 +61,7 @@ namespace pubs.Api.Controllers
         [HttpPost("UpdateStore")]
         public IActionResult Put([FromBody] Application.Dtos.Store.StoreUpdateDto storeUpdate)
         {
-            var result = this.storeService.UpdateStore(storeUpdate);
+            var result = this.storeService.Update(storeUpdate);
 
             if (!result.Success)
             {
@@ -73,7 +73,7 @@ namespace pubs.Api.Controllers
         [HttpPost("RemoveStore")]
         public IActionResult Remove([FromBody] Application.Dtos.Store.StoreRemoveDto storeRemove)
         {
-            var result = this.storeService.RemoveStore(storeRemove);
+            var result = this.storeService.Remove(storeRemove);
 
             if (!result.Success)
             {
