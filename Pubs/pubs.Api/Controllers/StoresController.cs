@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using pubs.Api.Dtos.Stores;
 using pubs.Api.Models;
+using pubs.Application.Contracts;
 using pubs.Domain.Entities;
 using pubs.Infrastructure.Exceptions;
 using pubs.Infrastructure.Interfaces;
@@ -12,76 +13,73 @@ namespace pubs.Api.Controllers
     [ApiController]
     public class StoresController : ControllerBase
     {
-        private readonly IStoresRepository storesRepository;
+        private readonly IStoresService storeService;
 
-        public StoresController(IStoresRepository storesRepository)
+        public StoresController(IStoresService storeService)
         {
-            this.storesRepository = storesRepository;
+            this.storeService = storeService;
         }
 
 
         [HttpGet("GetStores")]
         public IActionResult Get()
         {
-            var stores = this.storesRepository.GetEntities().Select(stores => new StoreGetModel()
+            var result = this.storeService.GetStores();
+
+            if (!result.Success) 
             {
-                StoreName = stores.stor_name,
-                storeId = stores.stor_id,
-                State = stores.state,
-                City = stores.city
-            });
-            return Ok(stores);
+                return BadRequest(result);
+            }
+            return Ok(result);
         }
 
 
         [HttpGet("GetStoresById")]
         public IActionResult Get(string id)
         {
-            var store = this.storesRepository.GetEntity(id);
-            StoreGetModel storeGetModel = new StoreGetModel()
+            var result = this.storeService.GetStore(id);
+
+            if (!result.Success)
             {
-                storeId = store.stor_id,
-                StoreName = store.stor_name,
-                City = store.city,
-                State = store.state
-            };
-            return Ok(storeGetModel);
+                return BadRequest(result);
+            }
+            return Ok(result);
         }
 
         [HttpPost("SaveStore")]
-        public IActionResult Post([FromBody] StoreAddDto storeAddModel)
+        public IActionResult Post([FromBody] Application.Dtos.Store.StoreAddDto storeAddModel)
         {
-            this.storesRepository.Save(new Domain.Entities.Store()
+            var result = this.storeService.SaveStore(storeAddModel);
+
+            if (!result.Success)
             {
-                stor_name = storeAddModel.StoreName,
-                stor_id = storeAddModel.storeId,
-                state = storeAddModel.State,
-                city = storeAddModel.City
-            });
-            return Ok("Tienda guaradada correctamente.");
+                return BadRequest(result);
+            }
+            return Ok(result);
         }
 
         [HttpPost("UpdateStore")]
-        public IActionResult Put([FromBody] StoreUpdateDto storeUpdate)
+        public IActionResult Put([FromBody] Application.Dtos.Store.StoreUpdateDto storeUpdate)
         {
-            this.storesRepository.Update(new Store()
+            var result = this.storeService.UpdateStore(storeUpdate);
+
+            if (!result.Success)
             {
-                stor_id = storeUpdate.storeId,
-                stor_name = storeUpdate.StoreName,
-                city = storeUpdate.City,
-                state = storeUpdate.State
-            });
-            return Ok("Tienda actualizada correctamente.");
+                return BadRequest(result);
+            }
+            return Ok(result);
         }
 
         [HttpPost("RemoveStore")]
-        public IActionResult Remove([FromBody] StoreRemoveDto storeRemove)
+        public IActionResult Remove([FromBody] Application.Dtos.Store.StoreRemoveDto storeRemove)
         {
-            this.storesRepository.Remove(new Store()
+            var result = this.storeService.RemoveStore(storeRemove);
+
+            if (!result.Success)
             {
-                stor_id = storeRemove.storeId
-            });
-            return Ok("Tienda eliminada correctamente.");
+                return BadRequest(result);
+            }
+            return Ok(result);
         }
     }
 }

@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using pubs.Application.Contracts;
+using pubs.Application.Service;
 using pubs.Infrastructure.Context;
 using pubs.Infrastructure.Interfaces;
 using pubs.Infrastructure.Logging;
@@ -16,6 +18,11 @@ builder.Services.AddScoped<ICustomlogger, CustomLogger>();
 
 //App Services
 builder.Services.AddControllers();
+builder.Services.AddTransient<IStoresService, StoreService>();
+
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

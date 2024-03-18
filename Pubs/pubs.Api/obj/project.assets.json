@@ -825,6 +825,19 @@
           }
         }
       },
+      "pubs.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "pubs.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/pubs.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/pubs.Application.dll": {}
+        }
+      },
       "pubs.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2353,6 +2366,11 @@
         "version.txt"
       ]
     },
+    "pubs.Application/1.0.0": {
+      "type": "project",
+      "path": "../pubs.Application/pubs.Application.csproj",
+      "msbuildProject": "../pubs.Application/pubs.Application.csproj"
+    },
     "pubs.Domain/1.0.0": {
       "type": "project",
       "path": "../pubs.Domain/pubs.Domain.csproj",
@@ -2367,6 +2385,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Swashbuckle.AspNetCore >= 6.5.0",
+      "pubs.Application >= 1.0.0",
       "pubs.Infrastructure >= 1.0.0"
     ]
   },
@@ -2397,6 +2416,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj": {
+              "projectPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Application\\pubs.Application.csproj"
+            },
             "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj": {
               "projectPath": "D:\\ITLA\\Pubs_Project-\\Pubs\\pubs.Infrastructure\\pubs.Infrastructure.csproj"
             }

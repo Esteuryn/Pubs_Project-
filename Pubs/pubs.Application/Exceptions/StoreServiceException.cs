@@ -1,4 +1,6 @@
-﻿using pubs.Infrastructure.Interfaces;
+﻿using pubs.Application.Core;
+using pubs.Application.Models.Store;
+using pubs.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

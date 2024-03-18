@@ -8,8 +8,8 @@ namespace pubs.Application.Contracts
     {
         ServiceResult<List<StoreGetModel>> GetStores();
         ServiceResult<StoreGetModel> GetStore(string id);
-        ServiceResult<StoreGetModel> SaveStore(StoreDto storeDto);
-        ServiceResult<StoreGetModel> UpdateStore(StoreDto storeDto);
-        ServiceResult<StoreGetModel> RemoveStore(StoreDto storeDto);
+        ServiceResult<StoreGetModel> SaveStore(StoreAddDto storeAddDto);
+        ServiceResult<StoreGetModel> UpdateStore(StoreUpdateDto storeUpdateDto);
+        ServiceResult<StoreGetModel> RemoveStore(StoreRemoveDto storeRemoveDto);
     }
 }

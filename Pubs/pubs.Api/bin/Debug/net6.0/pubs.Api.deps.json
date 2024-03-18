@@ -9,6 +9,7 @@
       "pubs.Api/1.0.0": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "6.5.0",
+          "pubs.Application": "1.0.0",
           "pubs.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -466,6 +467,14 @@
           }
         }
       },
+      "pubs.Application/1.0.0": {
+        "dependencies": {
+          "pubs.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "pubs.Application.dll": {}
+        }
+      },
       "pubs.Domain/1.0.0": {
         "runtime": {
           "pubs.Domain.dll": {}
@@ -810,6 +819,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "pubs.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "pubs.Domain/1.0.0": {
       "type": "project",

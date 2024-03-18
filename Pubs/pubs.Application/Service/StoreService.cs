@@ -17,9 +17,9 @@ namespace pubs.Application.Service
         private readonly CustomLogger _logger;
         private readonly IStoresRepository storesRepository;
 
-        public StoreService(CustomLogger logger, IStoresRepository storesRepository)
+        public StoreService(ICustomlogger logger, IStoresRepository storesRepository)
         {
-            _logger = logger;
+            _logger = (CustomLogger?)logger;
             this.storesRepository = storesRepository;
         }
 
@@ -69,7 +69,7 @@ namespace pubs.Application.Service
             return result;
         }
 
-        public ServiceResult<StoreGetModel> RemoveStore(StoreDto storeDto)
+        public ServiceResult<StoreGetModel> RemoveStore(StoreRemoveDto storeDto)
         {
             ServiceResult<StoreGetModel> result = new ServiceResult<StoreGetModel>();
 
@@ -81,7 +81,7 @@ namespace pubs.Application.Service
             return result;
         }
 
-        public ServiceResult<StoreGetModel> SaveStore(StoreDto storeDto)
+        public ServiceResult<StoreGetModel> SaveStore(StoreAddDto storeDto)
         {
             ServiceResult<StoreGetModel> result =  new ServiceResult<StoreGetModel>();
 
@@ -124,7 +124,7 @@ namespace pubs.Application.Service
             return result;
         }
 
-        public ServiceResult<StoreGetModel> UpdateStore(StoreDto storeDto)
+        public ServiceResult<StoreGetModel> UpdateStore(StoreUpdateDto storeDto)
         {
             ServiceResult<StoreGetModel> result = new ServiceResult<StoreGetModel>();
 

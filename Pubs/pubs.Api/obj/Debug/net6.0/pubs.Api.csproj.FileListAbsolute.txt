@@ -173,3 +173,5 @@ D:\ITLA\Pubs_Project-\Pubs\pubs.Api\obj\Debug\net6.0\refint\pubs.Api.dll
 D:\ITLA\Pubs_Project-\Pubs\pubs.Api\obj\Debug\net6.0\pubs.Api.pdb
 D:\ITLA\Pubs_Project-\Pubs\pubs.Api\obj\Debug\net6.0\pubs.Api.genruntimeconfig.cache
 D:\ITLA\Pubs_Project-\Pubs\pubs.Api\obj\Debug\net6.0\ref\pubs.Api.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Api\bin\Debug\net6.0\pubs.Application.dll
+D:\ITLA\Pubs_Project-\Pubs\pubs.Api\bin\Debug\net6.0\pubs.Application.pdb
